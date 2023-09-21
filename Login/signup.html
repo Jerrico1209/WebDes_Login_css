@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+        body{
+            background-image: linear-gradient(90deg, rgb(134, 96, 1), rgb(113, 35, 35));
+        }
+        fieldset{
+            border-radius: 10px;
+            border: 10px double rgb(162, 147, 119);
+            max-width: 200px; 
+            margin: 15em auto;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: rgb(232, 237, 100);
+            padding: 1.5em;
+        }
+        input{
+            border-radius: 5px;
+            background-color: darkgoldenrod;
+        }
+        legend{
+            font-size: 25px;
+            text-align: center;
+            background-color: rgb(103, 29, 2);
+            border-radius: 3px;
+            color: wheat;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>Create Account</legend>
+        <form action="signup.php" method="post">
+            <i>Username</i> <br>
+            <input type="text"> <br>
+            <i>Email</i><br>
+            <input type="email"> <br>
+            <i>Password</i><br>
+            <input type="password"><br>
+            <i>Confirm Password</i><br>
+            <input type="password">
+            <br><br>
+            <input type="button" value="Sign In" style="border-color: chocolate;">
+        </form>
+        <br>
+        <input type="checkbox">I have read and agree about
+        <a href="Term&Policy.html">the terms and the policy</a>
+    </fieldset>
+</body>
+</html>
