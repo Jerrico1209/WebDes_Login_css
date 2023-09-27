@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style type="text/css">
+        @import "style.css"
+        
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>Create Account</legend>
+        <form action="signup.php" method="post">
+            <i>Username</i> <br>
+            <input type="text"> <br>
+            <i>Email</i><br>
+            <input type="email"> <br>
+            <i>Password</i><br>
+            <input type="password"><br>
+            <i>Confirm Password</i><br>
+            <input type="password"><br>
+            <i>Place of Birthday</i><br>
+            <input type="text"><br>
+            <i>Active phone Number</i><br>
+            <input type="tel" placeholder="xxxx-xxxx-xxxx"><br>
+            <i>your hobby</i><br>
+            <select name="dropdown">
+                <option value="Diving">Diving</option>
+                <option value="Skiing">Skiing</option>
+                <option value="Reading">Reading</option>
+                <option value="Programming">Programming</option>
+                <option value="Playing an instrument">Playing an instrument</option>
+            </select><br>
+            <i>Blood Type</i><br>
+            <input type="radio" name="BloodType">A
+            <input type="radio" name="BloodType">B
+            <input type="radio" name="BloodType">AB
+            <input type="radio" name="BloodType">O<br>
+            <i>Religion</i><br>
+            <select name="dropdown">
+                <option value="SDA">Seventh Day Adventist</option>
+                <option value="Protestant">Protestant</option>
+                <option value="Catholic">Catholic</option>
+                <option value="buddha">buddha</option>
+                <option value="Hindu">Hindu</option>
+                <option value="Confucian">Confucian</option>
+            </select><br>
+            <i>Your Birthday</i><br>
+            <input type="date"><br>
+            <br><br>
+            <input type="button" value="Sign In" style="border-color: chocolate; text-align:center;">
+            <br><br>
+        </form>
+        <br>
+        <input type="checkbox">I have read and agree about
+        <a href="Term&Policy.html">the terms and the policy</a>
+    </fieldset>
+</body>
+</html>
